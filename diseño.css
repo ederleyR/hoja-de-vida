@@ -1,0 +1,83 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color:#036ea0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.contenedor {
+    display: flex;
+    height: 100vh;
+    align-items: flex-start;
+}
+
+.informacion {
+    position: absolute;       
+    bottom: 10px;                
+    right: 20px;              
+    width: 30%;               
+    background: #0077b6;
+    padding: 50px;
+}
+.nombre{
+    width: 70%;
+    height: 100%;
+    background: #ffffff;
+}
+.contenido{
+    padding-left: 15px;
+}
+.NomApe{
+    color:rgb(0, 17, 255);
+    font-size: 35px;
+}
+.datos{
+    font-size: 20px;
+}
+.MiniTitulos{
+    font-size: 25px;
+    color: rgb(255, 0, 51);
+    border-bottom: 3px solid rgb(0, 0, 0); 
+    padding-bottom: 5px; 
+    width: 150px;
+}
+
+.contactar {
+    position: absolute; 
+    top: 400px;         
+    right: 225px;        
+    width: 125px;       
+    background-color: #0077b6; 
+    color: white;       
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.perfil {
+    position: absolute; 
+    top: 50px; 
+    right: 50px;
+    width: 300px;           
+    height: 300px;        
+    border-radius: 50%;   
+    object-fit: cover;   
+    margin: 0 auto 20px;   
+    border: 2px solid rgb(0, 0, 0); 
+    border-style: solid;
+}
+.referencias{
+    position: absolute;
+    top: 400px;          
+    right: 30px;        
+    width: 125px;       
+    background-color: #0077b6; 
+    color: white;       
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+
