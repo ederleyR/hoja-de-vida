@@ -20,11 +20,12 @@ body {
     background: #0077b6;
     padding: 50px;
 }
-.nombre{
+.nombre {
     width: 70%;
-    height: 100%;
-    background: #ffffff;
+    min-height: 100vh;   
+    background: white;
 }
+
 .contenido{
     padding-left: 15px;
 }
@@ -42,7 +43,6 @@ body {
     padding-bottom: 5px; 
     width: 150px;
 }
-
 .contactar {
     position: absolute; 
     top: 400px;         
@@ -67,17 +67,7 @@ body {
     border: 2px solid rgb(0, 0, 0); 
     border-style: solid;
 }
-.referencias{
-    position: absolute;
-    top: 400px;          
+#referencias{     
     right: 30px;        
-    width: 125px;       
-    background-color: #0077b6; 
-    color: white;       
-    padding: 20px;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: black;
 }
-
 
